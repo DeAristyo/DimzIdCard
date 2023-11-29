@@ -9,13 +9,14 @@
 /* Begin PBXBuildFile section */
 		A519AE6D2B1651F900AEDD91 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A519AE6C2B1651F900AEDD91 /* AppDelegate.swift */; };
 		A519AE6F2B1651F900AEDD91 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A519AE6E2B1651F900AEDD91 /* SceneDelegate.swift */; };
-		A519AE712B1651F900AEDD91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A519AE702B1651F900AEDD91 /* ViewController.swift */; };
-		A519AE742B1651F900AEDD91 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A519AE722B1651F900AEDD91 /* Main.storyboard */; };
+		A519AE712B1651F900AEDD91 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A519AE702B1651F900AEDD91 /* ProfileViewController.swift */; };
 		A519AE762B1651FA00AEDD91 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A519AE752B1651FA00AEDD91 /* Assets.xcassets */; };
 		A519AE792B1651FA00AEDD91 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A519AE772B1651FA00AEDD91 /* LaunchScreen.storyboard */; };
 		A519AE842B1651FA00AEDD91 /* DimzIdCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A519AE832B1651FA00AEDD91 /* DimzIdCardTests.swift */; };
 		A519AE8E2B1651FA00AEDD91 /* DimzIdCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A519AE8D2B1651FA00AEDD91 /* DimzIdCardUITests.swift */; };
 		A519AE902B1651FA00AEDD91 /* DimzIdCardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A519AE8F2B1651FA00AEDD91 /* DimzIdCardUITestsLaunchTests.swift */; };
+		A519AE9D2B1679AF00AEDD91 /* QRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A519AE9C2B1679AE00AEDD91 /* QRViewController.swift */; };
+		A519AE9F2B167D5500AEDD91 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A519AE9E2B167D5500AEDD91 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +40,7 @@
 		A519AE692B1651F900AEDD91 /* DimzIdCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DimzIdCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A519AE6C2B1651F900AEDD91 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A519AE6E2B1651F900AEDD91 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A519AE702B1651F900AEDD91 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A519AE732B1651F900AEDD91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A519AE702B1651F900AEDD91 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		A519AE752B1651FA00AEDD91 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A519AE782B1651FA00AEDD91 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A519AE7A2B1651FA00AEDD91 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +49,8 @@
 		A519AE892B1651FA00AEDD91 /* DimzIdCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DimzIdCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A519AE8D2B1651FA00AEDD91 /* DimzIdCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimzIdCardUITests.swift; sourceTree = "<group>"; };
 		A519AE8F2B1651FA00AEDD91 /* DimzIdCardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DimzIdCardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A519AE9C2B1679AE00AEDD91 /* QRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRViewController.swift; sourceTree = "<group>"; };
+		A519AE9E2B167D5500AEDD91 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,11 +103,12 @@
 			children = (
 				A519AE6C2B1651F900AEDD91 /* AppDelegate.swift */,
 				A519AE6E2B1651F900AEDD91 /* SceneDelegate.swift */,
-				A519AE702B1651F900AEDD91 /* ViewController.swift */,
-				A519AE722B1651F900AEDD91 /* Main.storyboard */,
+				A519AE702B1651F900AEDD91 /* ProfileViewController.swift */,
+				A519AE9C2B1679AE00AEDD91 /* QRViewController.swift */,
 				A519AE752B1651FA00AEDD91 /* Assets.xcassets */,
 				A519AE772B1651FA00AEDD91 /* LaunchScreen.storyboard */,
 				A519AE7A2B1651FA00AEDD91 /* Info.plist */,
+				A519AE9E2B167D5500AEDD91 /* DetailViewController.swift */,
 			);
 			path = DimzIdCard;
 			sourceTree = "<group>";
@@ -233,7 +236,6 @@
 			files = (
 				A519AE792B1651FA00AEDD91 /* LaunchScreen.storyboard in Resources */,
 				A519AE762B1651FA00AEDD91 /* Assets.xcassets in Resources */,
-				A519AE742B1651F900AEDD91 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +260,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A519AE712B1651F900AEDD91 /* ViewController.swift in Sources */,
+				A519AE712B1651F900AEDD91 /* ProfileViewController.swift in Sources */,
 				A519AE6D2B1651F900AEDD91 /* AppDelegate.swift in Sources */,
+				A519AE9F2B167D5500AEDD91 /* DetailViewController.swift in Sources */,
 				A519AE6F2B1651F900AEDD91 /* SceneDelegate.swift in Sources */,
+				A519AE9D2B1679AF00AEDD91 /* QRViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +301,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A519AE722B1651F900AEDD91 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A519AE732B1651F900AEDD91 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A519AE772B1651FA00AEDD91 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -447,9 +443,9 @@
 				INFOPLIST_FILE = DimzIdCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -457,9 +453,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Dimas.DimzIdCard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -475,9 +474,9 @@
 				INFOPLIST_FILE = DimzIdCard/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -485,9 +484,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = Dimas.DimzIdCard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
